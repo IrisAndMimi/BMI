@@ -9,4 +9,6 @@
     <string name="info">說明</string>
     <string name="weight">體重(公斤)</string>
     <string name="Dot">哦~</string>
+    <string name="Help">這是什麼東東??</string>
+    <string name="Info"> BMI 計算機</string>
 </resources>

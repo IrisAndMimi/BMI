@@ -8,4 +8,6 @@
     <string name="info">Info</string>
     <string name="OK">Okay</string>
     <string name="Dot">.</string>
+    <string name="Help">What\'s This ??</string>
+    <string name="Info">BMI Calculator.</string>
 </resources>

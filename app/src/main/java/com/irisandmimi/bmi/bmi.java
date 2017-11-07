@@ -15,7 +15,11 @@ public class bmi extends AppCompatActivity {
     View.OnClickListener listener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-
+            new AlertDialog.Builder(bmi.this)
+                    .setTitle(R.string.Help)
+                    .setMessage(R.string.Info)
+                    .setPositiveButton(R.string.OK,null)
+                    .show();
         }
     };
 
