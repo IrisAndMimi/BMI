@@ -45,12 +45,12 @@ public class bmi extends AppCompatActivity {
                     .setPositiveButton(R.string.OK,null)
                     .show();
         }
-//        if (height>3){
-//            new AlertDialog.Builder(this)
-//                    .setMessage("身高單位應為公尺")
-//                    .setTitle(R.string.Result_Title)
-//                    .setPositiveButton(R.string.OK,null)
-//                    .show();
+        if (height>3){
+            new AlertDialog.Builder(this)
+                    .setMessage("身高單位應為公尺")
+                    .setTitle(R.string.Result_Title)
+                    .setPositiveButton(R.string.OK,null)
+                    .show();
         }
 
       /*  Log.d("MainActivity",getString(R.string.UrBmi_is)+ bmi);
